@@ -38,8 +38,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBoxResult = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnOCR
@@ -130,33 +128,11 @@
             this.textBoxResult.Size = new System.Drawing.Size(617, 160);
             this.textBoxResult.TabIndex = 18;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(110, 43);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(421, 13);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "พัฒนาโปรแกรมโดย นายวิเลิศวัฒน์ หนูแสง ติดต่อ 0840900050 email srel90@gmail.com";
-            // 
-            // label5
-            // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(110, 262);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(421, 13);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "พัฒนาโปรแกรมโดย นายวิเลิศวัฒน์ หนูแสง ติดต่อ 0840900050 email srel90@gmail.com";
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(641, 450);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.textBoxResult);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
@@ -167,8 +143,7 @@
             this.Controls.Add(this.txtLang);
             this.Controls.Add(this.btnOCR);
             this.Name = "MainForm";
-            this.Text = "OCR พัฒนาโปรแกรมโดย นายวิเลิศวัฒน์ หนูแสง ติดต่อ 0840900050 email srel90@gmail.co" +
-    "m";
+            this.Text = "OCR ";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -188,8 +163,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox textBoxResult;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label5;
     }
 }
 

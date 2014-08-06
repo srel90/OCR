@@ -147,12 +147,7 @@ namespace OCR
         {
             txtPath.Text = Properties.Settings.Default.TessdataPath;
             txtLang.Text = Properties.Settings.Default.Lang;
-            Properties.Settings.Default.used += 1;
-            if (Properties.Settings.Default.used >= 5)
-            {
-                MessageBox.Show("ใช้งานโปรแกรมครบ 5 ครั้งแล้ว กรุณาติดต่อ คุณวิเลิศวัฒน์ หนูแสง 0840900050");
-                Application.Exit();
-            }
+          
         }
     }
 }
