@@ -38,6 +38,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBoxResult = new System.Windows.Forms.TextBox();
+            this.chk1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnOCR
@@ -128,11 +129,23 @@
             this.textBoxResult.Size = new System.Drawing.Size(617, 160);
             this.textBoxResult.TabIndex = 18;
             // 
+            // chk1
+            // 
+            this.chk1.AutoSize = true;
+            this.chk1.Location = new System.Drawing.Point(113, 42);
+            this.chk1.Name = "chk1";
+            this.chk1.Size = new System.Drawing.Size(87, 17);
+            this.chk1.TabIndex = 19;
+            this.chk1.Text = "Show blocks";
+            this.chk1.UseVisualStyleBackColor = true;
+            this.chk1.CheckedChanged += new System.EventHandler(this.chk1_CheckedChanged);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(641, 450);
+            this.Controls.Add(this.chk1);
             this.Controls.Add(this.textBoxResult);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
@@ -163,6 +176,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox textBoxResult;
+        private System.Windows.Forms.CheckBox chk1;
     }
 }
 
